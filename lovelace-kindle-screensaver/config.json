@@ -3,8 +3,7 @@
   "version": "0.0.2",
   "slug": "lovelace-kindle-screensaver",
   "description": "Display a lovelace page as a screensaver on a jailbroken Kindle",
-  "url": "https://github.com/marciogranzotto/hass-lovelace-kindle-screensaver",
-  "webui": "http://[HOST]:[PORT:5000]/output/cover.png",
+  "url": "https://github.com/marciogranzotto/hass-lovelace-kindle-screensaver",  
   "image": "marciogranzotto/addon-lovelace-kindle-screensaver-{arch}",
   "startup": "application",
   "arch": [
@@ -35,6 +34,7 @@
   "homeassistant_api": true,
   "host_network": false,
   "options": {
+    "webui": "http://[HOST]:[PORT:5000]/output/cover.png",
     "ha_token": "!secret kindle_ha_token",
     "screenshot_path": "/lovelace?kiosk",
     "cron_job": "* * * * *",
