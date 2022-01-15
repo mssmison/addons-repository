@@ -1,6 +1,6 @@
 {
   "name": "Lovelace Kindle Screensaver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "slug": "lovelace-kindle-screensaver",
   "description": "Display a lovelace page as a screensaver on a jailbroken Kindle",
   "url": "https://github.com/marciogranzotto/hass-lovelace-kindle-screensaver",  
