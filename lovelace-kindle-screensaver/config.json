@@ -49,6 +49,7 @@
     "log_level": "info"
   },
   "schema": {
+    "webui": "str",
     "ha_token": "str",
     "screenshot_path": "str",
     "cron_job": "str",
